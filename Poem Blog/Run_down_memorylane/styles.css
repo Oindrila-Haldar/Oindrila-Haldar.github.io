@@ -1,0 +1,68 @@
+/* Ensure body and html take up full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Candara Light', sans-serif;
+    overflow-x: hidden; /* Prevent horizontal scroll on body */
+}
+
+/* Container for the poem */
+.poem-container {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Snap scroll */
+    height: 100vh; /* Full viewport height */
+    background: url('couple1.jpg') no-repeat center center; /* Add background image */
+    background-size: cover; /* Ensure the image covers the entire container */
+}
+
+/* Wrapper to ensure full width for horizontal scrolling */
+.poem-wrapper {
+    display: flex;
+    width: max-content;
+}
+
+/* Each poem content section */
+.poem-content {
+    flex: 0 0 100%; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column; /* Ensure vertical stacking of content */
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+    font-size: 2em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better text visibility */
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Style for the title section */
+.poem-content h2 {
+    font-size: 2em;
+}
+
+/* Navigation dots */
+.dots {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot.active {
+    background-color: #717171;
+}

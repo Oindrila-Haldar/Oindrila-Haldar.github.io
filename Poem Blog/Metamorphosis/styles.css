@@ -1,0 +1,54 @@
+/* Ensure body and html take up full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Candara Light';
+}
+
+/* Container for poem effect */
+.poem-container {
+    display: flex;
+    align-items: flex-start; /* Align items at the start */
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+    background-color: #f5f5f5; /* Background color for contrast */
+}
+
+/* Content inside the poem container */
+.poem-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/* Image styling */
+.poem-image {
+    flex-shrink: 0; /* Prevent image from shrinking */
+    width: auto;
+    height: 100%; /* Ensure image takes up full height */
+}
+
+.poem-image img {
+    height: 100%;
+    width: auto; /* Maintain aspect ratio */
+    display: block;
+}
+
+/* Text styling */
+.poem-text {
+    flex-grow: 1; /* Allow text area to take up remaining space */
+    overflow-y: auto; /* Scroll if content overflows */
+    padding: 30px;
+    text-transform: 30px;
+    font-size: 25px;
+    box-sizing: border-box; /* Include padding in width calculations */
+    background-color: rgb(4, 42, 1); /* Semi-transparent background for better text visibility */
+    color: white;
+    text-align: left;
+}
+
+/* Optional: Add some padding to body */
+body {
+    padding: 0;
+    margin: 0;
+}

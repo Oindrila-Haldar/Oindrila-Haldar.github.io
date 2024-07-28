@@ -1,0 +1,32 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure body and html take up full height */
+html, body {
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+/* Container for the poem */
+.poem-container {
+    border: 4px solid black; /* Black border around the entire page */
+    background-color: white; /* White background for the container */
+    padding: 100px;
+    width: 90%; /* Full width, but less than max-width */
+    text-align: left; /* Left-align the text */
+}
+
+/* Poem content styles */
+.poem-content {
+    font-size: 1.5em; /* Font size for the poem text */
+    line-height: 1.5; /* Line height for better readability */
+}
