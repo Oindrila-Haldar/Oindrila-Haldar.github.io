@@ -9,7 +9,7 @@ body {
 
 /* Styling the header */
 header {
-    background-image: url('../Personal Website/Images/iisc2.jfif');
+    background-image: url('Images/iisc2.jfif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -78,7 +78,7 @@ section {
 /* Styling the home page */
 #home{
     position: relative;
-    background-image: url('../Personal Website/Images/iisc2.jfif');
+    background-image: url('Images/iisc2.jfif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -416,7 +416,7 @@ section {
 
 #painting {
     position: relative;
-    background: url('../Personal Website/Images/spring1.jpg'); 
+    background: url('Images/spring1.jpg'); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -426,7 +426,7 @@ section {
 
 #singing {
     position: relative;
-    background: url('../Personal Website/Images/summer1.webp'); 
+    background: url('Images/summer1.webp'); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -436,7 +436,7 @@ section {
 
 #poetry {
     position: relative;
-    background: url('../Personal Website/Images/autumn1.jpg'); 
+    background: url('Images/autumn1.jpg'); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -446,7 +446,7 @@ section {
 
 #meditation {
     position: relative;
-    background: url('../Personal Website/Images/winter1.jfif'); 
+    background: url('Images/winter1.jfif'); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -477,7 +477,7 @@ section {
 /* Styling Beliefs */
 #beliefs{
     position: relative;
-    background-image: url('../Personal Website/Images/ocean_bg1.jpg');
+    background-image: url('Images/ocean_bg1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
